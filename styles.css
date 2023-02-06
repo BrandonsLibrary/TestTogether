@@ -1,0 +1,126 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-indent: 1em;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.bg{      
+    background-image: url(/Backing.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#score {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 55px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.menu-button {
+    position:relative;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 140px;
+}
+
+#buttondiv {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+a:link {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+ol{
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+
+input[type=checkbox] {
+  -ms-transform: scale(5); /* IE */
+  -moz-transform: scale(5); /* FF */
+  -webkit-transform: scale(5); /* Safari and Chrome */
+  -o-transform: scale(5); /* Opera */
+  transform: scale(5);
+  padding: 10px;
+  margin-left: -1em;
+  margin-right: 2em;
+  margin-bottom: 4em;
+}
+
+@media only screen and (min-width: 1025px) {
+    .menu{ 
+        min-height: 100vh;
+    }
+    .menu-button{
+        font-size: 60px;
+    }
+}
