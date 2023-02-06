@@ -14,7 +14,7 @@ h2 {
     font-size: 1em;
 }
 
-.bg{      
+.bg{
     background-image: url(/Backing.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -52,6 +52,8 @@ h2 {
     text-align: center;
     padding: 15px 32px;
     font-size: 140px;
+    color: white;
+    background-color: darkslategray;
 }
 
 #buttondiv {
@@ -66,28 +68,23 @@ h2 {
     background-color: gray;
 }
 
-a:link {
-    color: gray;
-    background-color: transparent;
+a {
+    color: black;
+    background-color: wheat;
+    padding: 15px 32px;
+    padding-left: 0;
+    display: inline-block;
     text-decoration: none;
+    font-size: 55px;
 }
 
-a:visited {
+a:hover, a:active {
     color: gray;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: gray;
-    background-color: transparent;
     text-decoration: underline;
 }
 
-a:active {
-    color: gray;
+.linkless{
     background-color: transparent;
-    text-decoration: underline;
 }
 
 ::-webkit-scrollbar {
@@ -122,5 +119,11 @@ input[type=checkbox] {
     }
     .menu-button{
         font-size: 60px;
+    }
+}
+
+@media screen and (max-device-width: 480px){
+    input[type=checkbox] {
+        transform: scale(2);
     }
 }

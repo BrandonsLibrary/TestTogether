@@ -2,7 +2,8 @@
 
 <head>
     <title>Sauce Scores</title>
-    <meta name="theme-color" content="#08526e">
+    <meta name="theme-color" content="black">
+    <meta name="viewport" content="width=480px, minimum-scale=0.5, maximum-scale=0.8" />
     <link rel="icon" type="image/png"
         href="/Icon.png" />
     <!--Main scipt-->
@@ -17,11 +18,11 @@
 </style>
 <html>
 
-<body>
+<body onload="updateScores()">
     <div class="bg">
         <div class="menu">
-            <a href="/sweet.html"><button class="menu-button">Sweet</button></a><br>
-            <a href="/spicy.html"><button class="menu-button">Spicy</button></a><br>
+            <a href="/sweet.html" class="linkless"><button class="menu-button">Sweet</button></a><br>
+            <a href="/spicy.html" class="linkless"><button class="menu-button">Spicy</button></a><br>
             <nobr>
             🍭 <span id="numberSweet">???</span>
             🌶️ <span id="numberSpicy">???</span>
