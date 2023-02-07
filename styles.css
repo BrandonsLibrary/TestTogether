@@ -8,7 +8,6 @@ body {
     font-size: 2em;
     text-indent: 1em;
 }
-
 h1, h5 {
     text-align: center;
 }
@@ -57,7 +56,9 @@ h2 {
     padding: 15px 32px;
     font-size: 140px;
     color: white;
-    background-color: darkslategray;
+    background-color: #181a1b;
+    border: #9E182F;
+    border-radius: 1rem;
 }
 
 #buttondiv {
