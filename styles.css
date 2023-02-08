@@ -118,6 +118,10 @@ input[type=checkbox] {
   margin-bottom: 4em;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 @media only screen and (min-width: 1025px) {
     .menu{ 
         min-height: 100vh;
